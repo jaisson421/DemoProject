@@ -1,9 +1,12 @@
 // Jaisson Lazo
 // A combination of everything I've learned
+import java.io.*;
 import java.util.Random;
+import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
+	
 		System.out.println("Welcome to my program!");
 		//boolean - a binary datatype with only 2 possible values, true and false, it uses 1 bit of memory
 	    //byte - A byte is one of the ways to store integer numbers in java, it uses 1 byte of memory
@@ -120,6 +123,54 @@ public class Main {
          int prec = 12 - 4 * 2; //operator precedence is the order in which the operators in an expression are evaluated when the expression has several operators.
          //Above, the line first processes 4 * 2 because the multiplicative operator appears before the additive operator in precedence order.
          System.out.println(prec);
+         
+         // while loop
+         int count = 1;
+         while (count < 11) {
+             System.out.println("Count is: " + count);
+             count++;
+         }
+         
+         System.out.println("");
+         
+         // for loop
+         for(int i2=1; i2<11; i2++){
+             System.out.println("Count is: " + i2);
+        }
+         
+         System.out.println("");
+         
+         // do/while loop
+         int count1 = 1;
+         do {
+             System.out.println("Count is: " + count1);
+             count1++;
+         } while (count1 < 11);
+         
+         System.out.println("");
+         
+         // break - exits the loop
+         // continue - jumps to the next iteration of the loop
+         for(int i1=0;i1<10;i1++)
+         {
+             if (i1==4)
+             {
+                 break;
+             }
+             System.out.print(i1+"\t");
+
+         }
+         System.out.println();
+         for(int i1=0;i1<10;i1++)
+         {
+
+             if (i1==4)
+             {
+                 continue;
+             }
+             System.out.print(i1+"\t");
+         }
+         
 	}
 				
 	private static double squareRoot(double n1) {
@@ -127,5 +178,7 @@ public class Main {
 		//n1 is a parameter
 		//new cooment
 	}
+	
+	
 
 }
