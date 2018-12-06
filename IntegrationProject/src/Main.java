@@ -191,20 +191,7 @@ public class Main {
          //a class that includes some of the code that you want, you can derive 
          //your new class from the existing class.
          
-         int [] sampleArray = {56, 12, 45, 76, 32, 420};
          
-         int samplearraylength = sampleArray.length;
-         
-         int smallestelement;
-         
-         for(int i2=0; i2<samplearraylength; i2++) {
-             for(int m = i2 + 1; m<samplearraylength; m++) {
-                 smallestelement = sampleArray[i2];
-                 sampleArray [i2] = sampleArray [m];
-                 sampleArray [m] = smallestelement;
-             }
-         }
-         System.out.print(sampleArray[0]);
 	}
 	
 				
