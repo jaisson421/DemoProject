@@ -8,29 +8,40 @@ public class Main {
 	public static void main(String[] args) {
 	
 		System.out.println("Welcome to my program!");
-		//boolean - a binary datatype with only 2 possible values, true and false, it uses 1 bit of memory
-	    //byte - A byte is one of the ways to store integer numbers in java, it uses 1 byte of memory
-        //char - A char is a way to store a single character in java, useful when storing simple characteristics like gender
-        //short - A short is one of the ways to store integer numbers in java, but it uses 2 bytes of memory
-        //int - A int is one of the ways to store integer numbers in java, but it uses 4 bytes of memory
-		//long - A long is one of the ways to store integer numbers in java, but it uses 8 bytes of memory
-		//float - A float is one of the ways to store decimal numbers in java, it uses 4 bytes of memory
-		//double - A double is one of the ways to store decimal numbers in java, it uses 8 bytes of memory
+		//boolean - a binary datatype with only 2 possible values, true and false, 
+		//it uses 1 bit of memory
+	    //byte - A byte is one of the ways to store integer numbers in java, it 
+		//uses 1 byte of memory
+        //char - A char is a way to store a single character in java, useful 
+		//when storing simple characteristics like gender
+        //short - A short is one of the ways to store integer numbers in java, 
+		//but it uses 2 bytes of memory
+        //int - A int is one of the ways to store integer numbers in java, 
+		//but it uses 4 bytes of memory
+		//long - A long is one of the ways to store integer numbers in java, 
+		//but it uses 8 bytes of memory
+		//float - A float is one of the ways to store decimal numbers in java, 
+		//it uses 4 bytes of memory
+		//double - A double is one of the ways to store decimal numbers in java, 
+		//it uses 8 bytes of memory
 		boolean b = true;
 		int i = 4; 
 		double d = 5.0;
 		String s = "Goodbye"; 
-		// Variables are the way for programmers to store data in the form of the datatypes.
+		// Variables are the way for programmers to store data in the 
+		//form of the datatypes.
 		// Scopes define the space in which the variable exists.
 		final int j = 6; 
-		//The final keyword means that the variable's value cannot be changed later on in the program.
+		//The final keyword means that the variable's value cannot be changed later
+		//on in the program.
 		int len = s.length();
 		//length outputs how many characters a string has.
 		String k = "Hello";
 		int n = s.compareTo(k);
 		//compareTo compares two strings lexicographically
 		System.out.println(s.equals(k));
-		//equals declares whether or not two strings have the same contents (true or false).
+		//equals declares whether or not two strings have the same contents 
+		//(true or false).
 		System.out.println("\"word\"");
 		double result = (double) 5/2; 
 		double n1 = squareRoot(4); //calling method squareRoot
@@ -120,8 +131,11 @@ public class Main {
         if((b1 == 1) && (a1 == 2))
             System.out.println("b1 is 1 AND a1 is 2");
         
-         int prec = 12 - 4 * 2; //operator precedence is the order in which the operators in an expression are evaluated when the expression has several operators.
-         //Above, the line first processes 4 * 2 because the multiplicative operator appears before the additive operator in precedence order.
+         int prec = 12 - 4 * 2; //operator precedence is the order in which the 
+         //operators in an expression are evaluated when the expression has 
+         //several operators.
+         //Above, the line first processes 4 * 2 because the multiplicative 
+         //operator appears before the additive operator in precedence order.
          System.out.println(prec);
          
          // while loop
@@ -171,7 +185,28 @@ public class Main {
              System.out.print(i1+"\t");
          }
          
+         //Inheritance is a mechanism wherein
+         //a new class is derived from an existing class. 
+         //Beneficial when you want to create a new class and there is already 
+         //a class that includes some of the code that you want, you can derive 
+         //your new class from the existing class.
+         
+         int [] sampleArray = {56, 12, 45, 76, 32, 420};
+         
+         int samplearraylength = sampleArray.length;
+         
+         int smallestelement;
+         
+         for(int i2=0; i2<samplearraylength; i2++) {
+             for(int m = i2 + 1; m<samplearraylength; m++) {
+                 smallestelement = sampleArray[i2];
+                 sampleArray [i2] = sampleArray [m];
+                 sampleArray [m] = smallestelement;
+             }
+         }
+         System.out.print(sampleArray[0]);
 	}
+	
 				
 	private static double squareRoot(double n1) {
 		return Math.sqrt(n1);
