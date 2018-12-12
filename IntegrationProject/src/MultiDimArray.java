@@ -1,5 +1,10 @@
 // Multidimensional Array
+
 public class MultiDimArray {
+  /**
+   * @author Jai 
+   * Finding two values of a two-dimensional array.
+   */
   public static void main(String[] args) {
     String[][] names = {{"Mr. ", "Mrs. ", "Ms. "}, {"Smith", "Jones"}};
     // Mr. Smith

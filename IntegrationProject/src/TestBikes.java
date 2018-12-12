@@ -1,4 +1,9 @@
+
 public class TestBikes {
+  /**
+   * String args: Creating 3 "Bicycle" objects.
+   *
+   */
   public static void main(String[] args) {
     Bicycle bike01;
     Bicycle bike02;

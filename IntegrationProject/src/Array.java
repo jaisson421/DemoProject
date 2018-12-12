@@ -1,5 +1,11 @@
-//
+
+
 public class Array {
+  /**
+   * Code to find the smallest value of an array.
+   * 
+   * @return the smallest value of an array.
+   */
   public static int getSmallest(int[] a, int total) {
     int temp;
     for (int i = 0; i < total; i++) {
@@ -14,7 +20,11 @@ public class Array {
     return a[0];
   }
 
+  /**
+   * String args: Creating two different arrays.
+   */
   public static void main(String[] args) {
+
     // TODO Auto-generated method stub
     int[] a = {1, 2, 5, 6, 3, 2};
     int[] b = {43, 76, 101, 89, 56, 34, 96};

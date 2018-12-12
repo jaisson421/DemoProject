@@ -1,9 +1,14 @@
+
 public class Bicycle {
 
   private int cadence;
   private int gear;
   private int speed;
 
+  /**
+   * Bicycle creating object Bicylce with properties.
+   *
+   */
   public Bicycle(int startCadence, int startSpeed, int startGear) {
     gear = startGear;
     cadence = startCadence;

@@ -1,7 +1,12 @@
-// Jaisson Lazo
-// A combination of everything I've learned
+/*
+ * A program showing everything I have learned from COP 2006
+ * 
+ * @author Jaisson
+ */
 
 import java.util.Random;
+
+
 
 public class Main {
 

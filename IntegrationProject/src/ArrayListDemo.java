@@ -1,10 +1,14 @@
 import java.util.ArrayList;
 
+
 public class ArrayListDemo {
+  /**
+   *ArrayList: to make Array List.
+   */
   public static void main(String[] args) {
 
     ArrayList<String> a1 = new ArrayList<>();
-    
+
     a1.add("OC");
     a1.add("JP");
     a1.add(1, "A");
