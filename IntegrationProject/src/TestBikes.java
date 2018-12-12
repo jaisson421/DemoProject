@@ -1,6 +1,8 @@
 public class TestBikes {
-  public static void main(String[] args){
-    Bicycle bike01, bike02, bike03;
+  public static void main(String[] args) {
+    Bicycle bike01;
+    Bicycle bike02;
+    Bicycle bike03;
 
     bike01 = new Bicycle(20, 10, 1);
     bike02 = new MountainBike(20, 10, 5, "Dual");
