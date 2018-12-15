@@ -7,6 +7,7 @@ public class ExceptionDemo {
    * String args to check find the answer of two numbers divided.
    */
   public static void main(String[] args) {
+   
     Scanner input = new Scanner(System.in);
 
     int x = 1;

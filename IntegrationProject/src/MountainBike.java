@@ -1,3 +1,8 @@
+
+/**
+ * @author https://docs.oracle.com/javase/tutorial/java/javaOO/classes.html
+ * Code to show inheritance.
+ */
 public class MountainBike extends Bicycle {
   private String suspension;
 

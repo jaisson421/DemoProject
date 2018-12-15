@@ -10,6 +10,7 @@
 public class Addition {
   /** 
    *Adds two set integers.
+   *@author https://www.geeksforgeeks.org/different-ways-method-overloading-java/
    * @return value of sum two integers.
    */
   public int add(int a, int b) {

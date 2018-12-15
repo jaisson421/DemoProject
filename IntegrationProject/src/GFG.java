@@ -1,4 +1,8 @@
-// overloading a method (2)
+
+/**
+ * @author https://www.geeksforgeeks.org/different-ways-method-overloading-java/
+ * part two of overloading a method
+ */
 class GFG {
   public static void main(String[] args) {
 

@@ -6,8 +6,8 @@ public class Bicycle {
   private int speed;
 
   /**
-   * Bicycle creating object Bicylce with properties.
-   *
+   * Bicycle creating object Bicylce with properties. Code from
+   * https://docs.oracle.com/javase/tutorial/java/javaOO/classes.html
    */
   public Bicycle(int startCadence, int startSpeed, int startGear) {
     gear = startGear;

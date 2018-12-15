@@ -4,7 +4,8 @@ public class Array {
   /**
    * Code to find the smallest value of an array.
    * 
-   * @return the smallest value of an array.
+   * @return the smallest value of an array. Code from
+   *         https://www.javatpoint.com/java-program-to-find-smallest-number-in-an-array
    */
   public static int getSmallest(int[] a, int total) {
     int temp;
